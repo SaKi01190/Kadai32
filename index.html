@@ -11,6 +11,7 @@
 
 <body>
 
+
     <header class="site-header">
         <div class="header-container">
             <div class="logo">スタヴァル</div>
@@ -56,31 +57,34 @@
                 </div>
         </section>
 
-        <section id="characters">
-            <h2>＜キャラクター＞</h2>
+        <section>
+            <h1 id="characters">＜キャラクター＞</h1>
             <p>共に戦うヒロインたちを一部紹介！</p>
 
-            主人公
-            星空 ヒカリ
+
             <p><img src="./images/01-hikari.webp" alt="星空 ヒカリ"></p>
-            CV: ○○ さくら
-            明るく前向きな高校1年生。太陽の力を宿した純白のドレスに変身して戦う。
+            <p>主人公</p>
+            <p>星空 ヒカリ</p>
+            <p>CV: ○○ さくら</p>
+            <p>明るく前向きな高校1年生。太陽の力を宿した純白のドレスに変身して戦う。</p>
 
-            ライバル
-            月城 カグヤ
+
             <p><img src="./images/02-kaguya.webp" alt="月城 カグヤ"></p>
-            CV: △△ あおい
-            クールで完璧主義な生徒会長。月の聖剣を操る、誇り高き変身戦士。
+            <p>ライバル</p>
+            <p>月城 カグヤ</p>
+            <p>CV: △△ あおい</p>
+            <p>クールで完璧主義な生徒会長。月の聖剣を操る、誇り高き変身戦士。</p>
 
-            ムードメーカー
-            風間 アオイ
+
             <p><img src="./images/03-aoi.webp" alt="風間 アオイ"></p>
-            CV: □□ みどり
-            運動神経抜群のムードメーカー。風の弓を使い、遠距離から仲間をサポート。
+            <p>ムードメーカー</p>
+            <p>風間 アオイ</p>
+            <p>CV: □□ みどり</p>
+            <p>運動神経抜群のムードメーカー。風の弓を使い、遠距離から仲間をサポート。</p>
         </section>
 
-        <section id="system">
-            動作環境 & スペック
+        <section>
+            <h1 id="system">＜動作環境 & スペック＞</h1>
 
             <table border="1">
                 <thead>
@@ -108,55 +112,48 @@
                     </tr>
                 </tbody>
             </table>
-
-
-
-
-
-
-
-
-
-            「信じる心が、私を最強の姿に変える――！」
-            — キャッチコピーより
+            <p><span id="CatchCopy">「信じる心が、私を最強の姿に変える――！」</span></p>
+            <p><span id="forCatchCopy">～キャッチコピ～より</span></p>
         </section>
 
-        <section id="contact">
-            事前登録フォーム
-            <div class="form-group">
-                <label for="id-email_">メールアドレス 必須</label>
-                <input type="email" name="email_" id="email_" placeholder="sombody@example.com" required>
-            </div>
-
-            <div class="form-group">
-                <label for="platform">遊ぶ予定の</label>
-                <select name="platform" id="platform">
-                    <option value="iOS">iOS</option>
-                    <option value="Android">Android</option>
-                    <option value="both">両方</option>
-                    <option value="decided">未定</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                推しキャラ（任意）
-                <label><input type="radio" name="fav">ヒカリ</label>
-                <label><input type="radio" name="fav">カグヤ</label>
-                <label><input type="radio" name="fav">アオイ</label>
-            </div>
-
-            <div class="form-group">
-                <label for="message">ご意見・ご要望（任意）</label>
-                <textarea name="message" id="message" rows="4" placeholder="応援メッセージなどをどうぞ！"></textarea>
-
-            </div>
+        <section>
+            <h1 id="contact">＜事前登録フォーム＞</h1>
+            <div class="form-box">
+                <div class="form-group">
+                    <label for="id-email_">URL（必須）</label>
+                    <input type="email" name="email_" id="email_" placeholder="sombody@example.com" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="platform">遊ぶ予定の</label>
+                    <select name="platform" id="platform">
+                        <option value="iOS">iOS</option>
+                        <option value="Android">Android</option>
+                        <option value="both">両方</option>
+                        <option value="decided">未定</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    推しキャラ（任意）
+                    <label><input type="radio" name="fav">ヒカリ</label>
+                    <label><input type="radio" name="fav">カグヤ</label>
+                    <label><input type="radio" name="fav">アオイ</label>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">ご意見・ご要望（任意）</label>
+                    <textarea name="message" id="message" rows="4" placeholder="応援メッセージなどをどうぞ！"></textarea>
+    
+                </div>
+            </p>
             <div class="form-group">
                 <button type="submit" class="btn btn-submit">登録して変身する！</button>
             </div>
         </section>
     </main>
 
-    <footer>&copy; 2026 Starlight Valkyrie Project All Rights Reserved.</footer>
+    <footer id="text01">&copy; 2026 Starlight Valkyrie Project All Rights Reserved.</footer>
 
 
 </body>

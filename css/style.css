@@ -140,3 +140,38 @@ h1{
 #KeyWord{
     color: var(--primary-color);
 }
+
+#CatchCopy{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+#forCatchCopy {
+    display: block;
+    text-align: end;
+    transform: translateX(-250px);
+    font-size: 45px;
+}
+
+table {
+    margin: 0 auto;
+    size: 100;
+}
+
+#contact{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.form-box{
+    border:2px solid;
+    padding: 24px;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+#text01{
+    text-align: end;
+    transform: translateX(-5px);
+}
