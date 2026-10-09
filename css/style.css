@@ -156,6 +156,7 @@ h1 {
 }
 
 #contact {
+    margin-top: 300px;
     margin-bottom: 300px;
 }
 
@@ -228,4 +229,9 @@ td {
 
 .character label:hover {
     background-color: #eee;
+}
+
+#message {
+    width: 300px;
+    height: 120px;
 }
