@@ -60,33 +60,52 @@
         <section>
             <h1 id="characters">＜キャラクター＞</h1>
             <p>共に戦うヒロインたちを一部紹介！</p>
+            <div class="character-slider">
+                
+                <input type="radio" name="character" id="hikari" checked>
+                <input type="radio" name="character" id="kaguya">
+                <input type="radio" name="character" id="aoi">
+                <div class="character hikari">                    
+                    <img src="./images/01-hikari.webp" alt="星空 ヒカリ">
+                    <p>主人公</p>
+                    <p>星空 ヒカリ</p>
+                    <p>CV: ○○ さくら</p>
+                    <p>明るく前向きな高校1年生。太陽の力を宿した純白のドレスに変身して戦う。</p>
 
+                    <label for="aoi">← 前へ</label>
+                    <label for="kaguya">次へ →</label>
+                </div>
+    
+    
+               <div class="character kaguya">
+                    <img src="./images/02-kaguya.webp" alt="月城 カグヤ">
+                    <p>ライバル</p>
+                    <p>月城 カグヤ</p>
+                    <p>CV: △△ あおい</p>
+                    <p>クールで完璧主義な生徒会長。月の聖剣を操る、誇り高き変身戦士。</p>
 
-            <p><img src="./images/01-hikari.webp" alt="星空 ヒカリ"></p>
-            <p>主人公</p>
-            <p>星空 ヒカリ</p>
-            <p>CV: ○○ さくら</p>
-            <p>明るく前向きな高校1年生。太陽の力を宿した純白のドレスに変身して戦う。</p>
+                    <label for="hikari">← 前へ</label>
+                    <label for="aoi">次へ →</label>
+               </div>
+    
+    
+               <div class="character aoi">                   
+                    <img src="./images/03-aoi.webp" alt="風間 アオイ">
+                    <p>ムードメーカー</p>
+                    <p>風間 アオイ</p>
+                    <p>CV: □□ みどり</p>
+                    <p>運動神経抜群のムードメーカー。風の弓を使い、遠距離から仲間をサポート。</p>
 
-
-            <p><img src="./images/02-kaguya.webp" alt="月城 カグヤ"></p>
-            <p>ライバル</p>
-            <p>月城 カグヤ</p>
-            <p>CV: △△ あおい</p>
-            <p>クールで完璧主義な生徒会長。月の聖剣を操る、誇り高き変身戦士。</p>
-
-
-            <p><img src="./images/03-aoi.webp" alt="風間 アオイ"></p>
-            <p>ムードメーカー</p>
-            <p>風間 アオイ</p>
-            <p>CV: □□ みどり</p>
-            <p>運動神経抜群のムードメーカー。風の弓を使い、遠距離から仲間をサポート。</p>
+                    <label for="kaguya">← 前へ</label>
+                    <label for="hikari">次へ →</label>
+               </div>
+            </div>
         </section>
 
         <section>
             <h1 id="system">＜動作環境 & スペック＞</h1>
 
-            <table border="1">
+            <table id="spec-table">
                 <thead>
                     <tr>
                         <th>項目</th>
